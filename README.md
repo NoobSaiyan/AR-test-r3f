@@ -1,5 +1,5 @@
 # AR-test-r3f
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpg)
 
 ## PC -> Trugamr
