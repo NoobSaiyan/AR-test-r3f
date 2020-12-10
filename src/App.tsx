@@ -47,7 +47,6 @@ const App = () => {
   return (
     <ARCanvas>
       <ambientLight />
-      <pointLight position={[10, 10, 10]} />
       <Button position={[0, 0, -0.6]} />
       <DefaultXRControllers />
     </ARCanvas>
