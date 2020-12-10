@@ -24,7 +24,6 @@ function Button(props: any) {
   return (
     <Select onSelect={onSelect}>
       <Box
-        position={[0, -3, -1]}
         color={color}
         scale={[0.5, 0.5, 0.5]}
         size={[0.4, 0.1, 0.1]}
@@ -49,7 +48,7 @@ const App = () => {
     <ARCanvas>
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
-      <Button position={[0, 0.1, -0.2]} />
+      <Button position={[0, 0, -0.6]} />
       <DefaultXRControllers />
     </ARCanvas>
   )
